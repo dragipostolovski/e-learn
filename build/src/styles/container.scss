@@ -1,0 +1,11 @@
+.container {
+    background-color: var(--el-bg-color);
+}
+
+.inner {
+    max-width: 1200px;
+    padding: var(--el-inner-pt) 10px var(--el-inner-pb) 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+}

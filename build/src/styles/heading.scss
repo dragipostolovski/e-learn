@@ -1,0 +1,51 @@
+ .el-heading {
+    &__title, &__desc {
+        color: #02E083;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        margin-bottom: 0;
+    }
+
+    &__desc { 
+        margin-top: 10px;
+        margin-bottom: 0px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    &__date {
+        margin-top: 10px;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+    }
+
+    &__cta {
+        margin-top: 20px;
+
+        &:hover {
+            border-color: #fff;
+        }
+    }
+ }
+
+ .el-heading-v2 {
+    .el-heading {
+        &__title, &__desc {
+            color: #222;
+        }
+    }
+ }
+
+ 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .el-heading {
+        &__title {
+            font-size: 25px;
+        }
+    }
+}

@@ -1,0 +1,120 @@
+/*!**********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/styles/app.scss ***!
+  \**********************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap);
+/*!**************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/styles/app.scss (1) ***!
+  \**************************************************************************************************************************************************************************/
+:root {
+  --el-primary-color: #085643;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Inter Tight", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+.inner-center {
+  text-align: center;
+}
+
+.el-button {
+  text-decoration: none;
+  padding: 6px 20px;
+  display: inline-block;
+  color: var(--el-primary-color);
+  border: 1px solid var(--el-primary-color);
+  border-radius: 15px;
+  background-color: #fff;
+  cursor: pointer;
+  height: 32px;
+  font-size: 14px;
+  line-height: 1.3;
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+.el-button:hover {
+  background-color: var(--el-primary-color);
+  color: #fff;
+}
+
+.container {
+  background-color: var(--el-bg-color);
+}
+
+.inner {
+  max-width: 1200px;
+  padding: var(--el-inner-pt) 10px var(--el-inner-pb) 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.el-heading__title, .el-heading__desc {
+  color: #02E083;
+}
+.el-heading__title {
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.el-heading__desc {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+.el-heading__date {
+  margin-top: 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  display: block;
+}
+.el-heading__cta {
+  margin-top: 20px;
+}
+.el-heading__cta:hover {
+  border-color: #fff;
+}
+
+.el-heading-v2 .el-heading__title, .el-heading-v2 .el-heading__desc {
+  color: #222;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .el-heading__title {
+    font-size: 25px;
+  }
+}
+.el-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.el-nav__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 5px;
+}
+.el-nav a {
+  padding: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=app.css.map*/

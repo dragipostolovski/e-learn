@@ -1,0 +1,19 @@
+.el-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__list{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 5px;
+    }
+
+    a {
+        padding: 10px;
+        box-sizing: border-box;
+        display: inline-block;
+    }
+}
