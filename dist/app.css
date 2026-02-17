@@ -31,6 +31,15 @@ h1 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: var(--el-primary-color);
+  transition: all 0.3s ease-in-out;
+}
+a:hover {
+  color: #042a20;
+}
+
 .el-button {
   text-decoration: none;
   padding: 6px 20px;
@@ -115,6 +124,7 @@ h1 {
   padding: 10px;
   box-sizing: border-box;
   display: inline-block;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=app.css.map*/

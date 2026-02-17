@@ -25,3 +25,13 @@ h1 {
 .inner-center {
     text-align: center;
 }
+
+a {
+    text-decoration: none;
+    color: var(--el-primary-color);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        color: #042a20;
+    }
+}
