@@ -35,3 +35,14 @@ a {
         color: #042a20;
     }
 }
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+@media (orientation: portrait) {
+    .site-header, .el-heading {
+        display: none;
+    }
+}
