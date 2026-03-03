@@ -1,4 +1,5 @@
 import './styles/app.scss';
+import './burger.js'; 
 
 const siteHeader = () => {
     const header = document.querySelector('.site-header');

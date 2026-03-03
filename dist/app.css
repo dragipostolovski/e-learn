@@ -194,6 +194,12 @@ img {
   height: 100vh;
   background-color: #fff;
   z-index: 2;
+  right: -100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.site-aside.active {
+  right: 0;
 }
 
 /*# sourceMappingURL=app.css.map*/
